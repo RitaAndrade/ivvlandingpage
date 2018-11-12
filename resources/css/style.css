@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  font-family: helvetica;
+}
+
+p {
+  font-family: helvetica;
+  font-size: 14px;
+}
+
+tr {
+  font-family: helvetica;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+  height: 100%;
+}
+
+#wrapper {
+  background-color: #dddddc;
+  min-height: 100%;
+  height: auto !important;
+  margin-bottom: -80px;
+}
+
+#wrapper:after {
+  content: "";
+  display: block;
+  height: 50px;
+}
+
+#content {
+  height: 100%;
+}
+
+#footer {
+  height: 80px;
+}
+
+#footer-content {
+  background-color: #ffffff;
+  height: 50px;
